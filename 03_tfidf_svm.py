@@ -1,14 +1,3 @@
-"""
-Langkah 3 - Pelatihan TF-IDF + Linear SVM dan prediksi pada tiga kondisi.
-
-Model dilatih pada data latih kondisi normal saja. Kosakata dan IDF dibentuk
-dari data latih. Tidak dilakukan pencarian hyperparameter.
-
-Keluaran: hasil/pred_svm.csv
-          hasil/03_svm_validasi.csv
-          hasil/03_svm_bobot_fitur.csv
-          hasil/03_svm_token_target_oov.csv
-"""
 import time
 
 import joblib

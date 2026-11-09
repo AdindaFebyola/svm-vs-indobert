@@ -1,15 +1,3 @@
-"""
-Langkah 1 - Persiapan data dan pembagian data.
-
-Masukan : data/raw/deteksi-judi-online.csv (dataset Kaggle, tidak diubah)
-Keluaran: data/processed/data_bersih.csv  (seluruh data yang lolos persiapan)
-          data/processed/train.csv, val.csv, test.csv
-          hasil/01_pemeriksaan_kelengkapan.csv
-          hasil/01_ringkasan_persiapan.csv
-          hasil/01_data_dikeluarkan.csv   (jejak setiap baris yang dikeluarkan)
-          hasil/01_distribusi_video.csv
-          hasil/01_distribusi_split.csv
-"""
 import re
 import unicodedata
 

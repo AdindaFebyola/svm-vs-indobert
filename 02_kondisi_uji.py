@@ -1,22 +1,3 @@
-"""
-Langkah 2 - Pembentukan kondisi pengujian pada data uji.
-
-Leksikon token target adalah kata pada leksikon kandidat (config.py) yang
-muncul pada komentar promosi data latih. Untuk setiap komentar promosi pada
-data uji dipilih satu token target:
-  1. prioritas pertama nama situs, kedua istilah perjudian;
-  2. jika terdapat lebih dari satu kandidat pada prioritas yang sama,
-     dipilih token yang muncul paling awal;
-  3. token harus memuat minimal satu karakter a, e, i, o, atau s.
-Seluruh karakter a/e/i/o/s pada token target diganti dengan Mathematical Bold
-(kondisi Unicode) atau angka (kondisi substitusi huruf-angka) pada posisi yang
-sama. Komentar non-promosi tidak diubah.
-
-Keluaran: data/processed/test_kondisi.csv
-          hasil/02_leksikon.csv
-          hasil/02_ringkasan_kondisi.csv
-          hasil/02_token_target.csv
-"""
 import re
 from collections import Counter
 

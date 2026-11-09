@@ -1,13 +1,3 @@
-"""
-Langkah 5 - Evaluasi kedua model pada tiga kondisi pengujian.
-
-Masukan : hasil/pred_svm.csv, hasil/pred_indobert.csv (dari Colab)
-Keluaran: hasil/05_metrik.csv          precision, recall, F1, confusion matrix
-          hasil/05_delta.csv           selisih kondisi normal - kondisi penyamaran
-          hasil/05_flip.csv            TP->FN, FN->TP, Flip Rate
-          hasil/05_flip_per_token.csv  TP->FN per token target
-          hasil/05_tokenisasi_indobert.csv
-"""
 import pandas as pd
 from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
 

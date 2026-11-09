@@ -1,15 +1,3 @@
-"""
-Langkah 6 - Analisis pendukung. Model tidak dilatih ulang, hanya membaca
-data dan hasil prediksi yang sudah ada.
-
-Keluaran: hasil/06_baseline_seluruh_uji.csv      kinerja kondisi normal pada seluruh data uji
-          hasil/06_flip_per_kategori.csv         TP->FN per kategori token target
-          hasil/06_hampir_duplikat.csv           komentar uji yang hampir sama dengan komentar latih
-          hasil/06_sensitivitas_hampir_duplikat.csv
-          hasil/06_pengecualian_unicode_per_blok.csv
-          hasil/06_panjang_subword.csv           jumlah subword IndoBERT terpanjang per bagian data
-          hasil/06_sebelum_setelah_finetuning.csv  kinerja IndoBERT sebelum dan setelah fine-tuning
-"""
 import re
 
 import pandas as pd
