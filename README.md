@@ -29,7 +29,7 @@ pada 18 channel YouTube.
 | `01_persiapan_data.py` | Pemeriksaan kelengkapan, penanganan duplikasi, pemeriksaan penyamaran pada komentar asli, pembagian 70:15:15 |
 | `02_kondisi_uji.py` | Leksikon token target dan pembentukan tiga kondisi data uji |
 | `03_tfidf_svm.py` | Pelatihan dan prediksi TF-IDF–Linear SVM |
-| `notebooks/04_indobert_colab.ipynb` | *Fine-tuning* dan prediksi IndoBERT di Google Colab (GPU T4), lengkap dengan output saat dijalankan |
+| `notebooks/04_indobert_colab.ipynb` | *Fine-tuning* dan prediksi IndoBERT di Google Colab (GPU T4), lengkap dengan output saat dijalankan ([buka di Colab](https://colab.research.google.com/drive/1zLAverjRDlOrX5zJuET_1pm_UOzFkJSk?usp=sharing)) |
 | `05_evaluasi.py` | Precision, recall, F1, confusion matrix, TP→FN, dan Flip Rate |
 | `06_analisis_pendukung.py` | Analisis pendukung tanpa pelatihan ulang |
 | `data/processed/` | Data hasil persiapan, pembagian, dan kondisi uji |
@@ -48,7 +48,7 @@ python -m venv .venv
 ```
 
 Langkah 4 dijalankan di Google Colab:
-1. Buka `notebooks/04_indobert_colab.ipynb` di Colab.
+1. Buka [notebook di Colab](https://colab.research.google.com/drive/1zLAverjRDlOrX5zJuET_1pm_UOzFkJSk?usp=sharing), lalu pilih **File → Save a copy in Drive**.
 2. Pilih **Runtime → Change runtime type → T4 GPU**, lalu **Runtime → Run all**.
 3. Saat diminta, unggah `train.csv`, `val.csv`, dan `test_kondisi.csv` dari `data/processed/`.
 4. Simpan tiga berkas yang terunduh ke `hasil/`.
