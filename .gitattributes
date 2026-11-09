@@ -1,0 +1,4 @@
+*.csv -text
+*.json -text
+*.ipynb -text
+*.joblib binary

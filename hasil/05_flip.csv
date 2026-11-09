@@ -1,0 +1,5 @@
+model,kondisi,TP_normal,TP_ke_FN,FN_ke_TP,flip_rate_persen,perubahan_non_promosi
+TF-IDF + Linear SVM,Penyamaran Unicode,169,48,0,28.402366863905325,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,169,48,0,28.402366863905325,0
+IndoBERT,Penyamaran Unicode,167,32,1,19.161676646706585,0
+IndoBERT,Substitusi huruf-angka,167,25,0,14.970059880239521,0

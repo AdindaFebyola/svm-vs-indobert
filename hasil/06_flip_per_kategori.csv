@@ -1,0 +1,9 @@
+model,kondisi,kategori_token,n,TP_normal,TP_ke_FN,FN_ke_TP,flip_rate_persen
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,33,33,1,0,3.0303030303030303
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,33,33,1,0,3.0303030303030303
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,137,136,47,0,34.55882352941177
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,137,136,47,0,34.55882352941177
+IndoBERT,Penyamaran Unicode,istilah perjudian,33,30,3,1,10.0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,33,30,6,0,20.0
+IndoBERT,Penyamaran Unicode,nama situs,137,137,29,0,21.16788321167883
+IndoBERT,Substitusi huruf-angka,nama situs,137,137,19,0,13.86861313868613

@@ -1,0 +1,8 @@
+keterangan,jumlah
+Komentar promosi pada data uji,203
+Promosi memenuhi kriteria token target,170
+  - token nama situs,137
+  - token istilah perjudian,33
+Promosi tidak memenuhi kriteria (tidak dievaluasi berpasangan),33
+Komentar non-promosi pada data uji (tidak diubah),902
+Total himpunan evaluasi berpasangan,1072

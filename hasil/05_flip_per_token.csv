@@ -1,0 +1,85 @@
+model,kondisi,kategori_token,token_target,n,TP_normal,TP_ke_FN
+IndoBERT,Penyamaran Unicode,nama situs,alexis17,73,73,12
+IndoBERT,Penyamaran Unicode,nama situs,alexis,26,26,2
+IndoBERT,Penyamaran Unicode,nama situs,mandalika77,25,25,11
+IndoBERT,Penyamaran Unicode,istilah perjudian,bonanja,8,8,2
+IndoBERT,Penyamaran Unicode,istilah perjudian,gacir,5,5,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,wede,5,5,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,gates,3,1,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,jepe,3,3,0
+IndoBERT,Penyamaran Unicode,nama situs,pawpaw4d,3,3,0
+IndoBERT,Penyamaran Unicode,nama situs,pulauwin,3,3,3
+IndoBERT,Penyamaran Unicode,istilah perjudian,gacor,2,2,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,gacur,2,2,0
+IndoBERT,Penyamaran Unicode,nama situs,maengaruda,2,2,0
+IndoBERT,Penyamaran Unicode,nama situs,mandalika,2,2,0
+IndoBERT,Penyamaran Unicode,nama situs,pulau,2,2,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,gacoor,1,1,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,jepek,1,1,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,makswin,1,1,1
+IndoBERT,Penyamaran Unicode,istilah perjudian,maxwin,1,1,0
+IndoBERT,Penyamaran Unicode,istilah perjudian,mekswin,1,0,0
+IndoBERT,Penyamaran Unicode,nama situs,weton88,1,1,1
+IndoBERT,Substitusi huruf-angka,nama situs,alexis17,73,73,6
+IndoBERT,Substitusi huruf-angka,nama situs,alexis,26,26,2
+IndoBERT,Substitusi huruf-angka,nama situs,mandalika77,25,25,8
+IndoBERT,Substitusi huruf-angka,istilah perjudian,bonanja,8,8,3
+IndoBERT,Substitusi huruf-angka,istilah perjudian,gacir,5,5,2
+IndoBERT,Substitusi huruf-angka,istilah perjudian,wede,5,5,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,gates,3,1,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,jepe,3,3,0
+IndoBERT,Substitusi huruf-angka,nama situs,pawpaw4d,3,3,0
+IndoBERT,Substitusi huruf-angka,nama situs,pulauwin,3,3,3
+IndoBERT,Substitusi huruf-angka,istilah perjudian,gacor,2,2,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,gacur,2,2,0
+IndoBERT,Substitusi huruf-angka,nama situs,maengaruda,2,2,0
+IndoBERT,Substitusi huruf-angka,nama situs,mandalika,2,2,0
+IndoBERT,Substitusi huruf-angka,nama situs,pulau,2,2,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,gacoor,1,1,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,jepek,1,1,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,makswin,1,1,1
+IndoBERT,Substitusi huruf-angka,istilah perjudian,maxwin,1,1,0
+IndoBERT,Substitusi huruf-angka,istilah perjudian,mekswin,1,0,0
+IndoBERT,Substitusi huruf-angka,nama situs,weton88,1,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,alexis17,73,73,32
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,alexis,26,26,1
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,mandalika77,25,25,10
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,bonanja,8,8,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,gacir,5,5,1
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,wede,5,5,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,gates,3,3,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,jepe,3,3,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,pawpaw4d,3,3,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,pulauwin,3,3,2
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,gacor,2,2,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,gacur,2,2,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,maengaruda,2,2,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,mandalika,2,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,pulau,2,2,1
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,gacoor,1,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,jepek,1,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,makswin,1,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,maxwin,1,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,istilah perjudian,mekswin,1,1,0
+TF-IDF + Linear SVM,Penyamaran Unicode,nama situs,weton88,1,1,1
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,alexis17,73,73,32
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,alexis,26,26,1
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,mandalika77,25,25,10
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,bonanja,8,8,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,gacir,5,5,1
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,wede,5,5,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,gates,3,3,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,jepe,3,3,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,pawpaw4d,3,3,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,pulauwin,3,3,2
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,gacor,2,2,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,gacur,2,2,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,maengaruda,2,2,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,mandalika,2,1,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,pulau,2,2,1
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,gacoor,1,1,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,jepek,1,1,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,makswin,1,1,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,maxwin,1,1,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,istilah perjudian,mekswin,1,1,0
+TF-IDF + Linear SVM,Substitusi huruf-angka,nama situs,weton88,1,1,1

@@ -1,0 +1,6 @@
+bagian,jumlah_komentar,subword_terpanjang,batas
+Latih,5154,49,126
+Validasi,1105,40,126
+Uji - Normal,1105,44,126
+Uji - Penyamaran Unicode,1105,41,126
+Uji - Substitusi huruf-angka,1105,49,126
