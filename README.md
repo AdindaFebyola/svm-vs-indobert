@@ -1,24 +1,13 @@
 # Deteksi Komentar Promosi Judi Online dengan Penyamaran Teks
 
-Kode eksperimen skripsi **"Perbandingan Kinerja TF-IDF–Linear SVM dan IndoBERT pada Deteksi Komentar
-Promosi Judi Online di YouTube Sebelum dan Setelah Penyamaran Unicode dan Substitusi Huruf-Angka"**.
-
-Adinda Febyola (235150707111055), Program Studi Teknologi Informasi, Fakultas Ilmu Komputer,
-Universitas Brawijaya.
-
-Kedua model dilatih pada komentar normal, lalu diuji pada tiga kondisi data uji yang sama:
-normal, penyamaran Unicode (huruf Mathematical Bold), dan substitusi huruf-angka.
-Pada setiap komentar promosi, satu token target disamarkan pada posisi karakter yang sama untuk
-kedua kondisi penyamaran, sedangkan komentar non-promosi tidak diubah.
+Penelitian ini membandingkan kinerja TF-IDF–Linear SVM dan IndoBERT dalam mendeteksi komentar promosi judi online pada tiga kondisi teks, yaitu normal, penyamaran Unicode (Mathematical Bold), dan substitusi huruf-angka. Kedua model dilatih menggunakan komentar normal, kemudian diuji pada tiga kondisi tersebut tanpa pelatihan ulang. Penyamaran diterapkan pada satu token target dalam setiap komentar promosi yang memenuhi kriteria, sedangkan komentar non-promosi tetap menggunakan teks asli.
 
 ## Dataset
 
 *Judi Online: Indonesian Online Gambling Promotion at YouTube* oleh Itsnatt, versi 3, dari Kaggle:
 <https://www.kaggle.com/datasets/yaemico/judionline> (lisensi Apache 2.0).
 
-Berkas asli `data_komentar_dengan_prediksi - data_komentar_dengan_prediksi(2).csv` disimpan tanpa
-perubahan isi di `data/raw/deteksi-judi-online.csv`. Data ini berisi 10.230 komentar dari 32 video
-pada 18 channel YouTube.
+Dataset terdiri atas 10.230 komentar dari 32 video pada 18 channel YouTube. Berkas CSV disimpan di data/raw/deteksi-judi-online.csv tanpa mengubah isi dataset aslinya.
 
 ## Struktur
 
@@ -60,15 +49,12 @@ Setelah itu jalankan langkah 5 dan 6:
 .venv\Scripts\python 06_analisis_pendukung.py
 ```
 
-Seluruh pengacakan memakai seed 42. Fine-tuning IndoBERT pada GPU tidak sepenuhnya deterministik,
-sehingga hasil run ulang dapat sedikit berbeda. Dua kali run di Colab dengan konfigurasi yang sama
-menghasilkan nilai loss dan metrik validasi setiap epoch serta prediksi pada himpunan evaluasi
-berpasangan yang sama persis.
+Seluruh eksperimen menggunakan seed 42. Proses fine-tuning pada GPU masih memungkinkan adanya sedikit perbedaan hasil saat dijalankan ulang. Namun, pada dua percobaan di Google Colab dengan konfigurasi yang sama, hasil pelatihan dan prediksi yang diperoleh tetap sama.
 
 ## Ringkasan hasil
 
 Pembagian data setelah persiapan: 5.154 latih, 1.105 validasi, dan 1.105 uji.
-Himpunan evaluasi berpasangan terdiri atas 1.072 komentar uji, yaitu 170 promosi dan 902 non-promosi.
+Himpunan evaluasi berpasangan menggunakan 1.072 komentar dari data uji, terdiri atas 170 komentar promosi dan 902 komentar non-promosi.
 
 | Model | Kondisi | Precision | Recall | F1 | TP→FN | Flip Rate |
 |---|---|---|---|---|---|---|
