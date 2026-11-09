@@ -49,7 +49,7 @@ Setelah itu jalankan langkah 5 dan 6:
 .venv\Scripts\python 06_analisis_pendukung.py
 ```
 
-Seluruh eksperimen menggunakan seed 42. Proses fine-tuning pada GPU masih memungkinkan adanya sedikit perbedaan hasil saat dijalankan ulang. Namun, pada dua percobaan di Google Colab dengan konfigurasi yang sama, hasil pelatihan dan prediksi yang diperoleh tetap sama.
+Seluruh eksperimen menggunakan seed 42. Proses fine-tuning pada GPU masih memungkinkan adanya sedikit perbedaan hasil saat dijalankan ulang. Namun, pada dua percobaan di Google Colab dengan konfigurasi yang sama, nilai loss dan metrik validasi setiap epoch serta prediksi pada himpunan evaluasi berpasangan tetap sama.
 
 ## Ringkasan hasil
 
@@ -67,16 +67,19 @@ Himpunan evaluasi berpasangan menggunakan 1.072 komentar dari data uji, terdiri 
 
 Prediksi pada 902 komentar non-promosi tidak berubah pada kedua kondisi penyamaran.
 
-### IndoBERT sebelum dan setelah fine-tuning
+### Hasil validasi
 
-Sebelum fine-tuning, lapisan klasifikasi IndoBERT masih acak, sehingga probabilitas kelas promosi
-hanya berkisar 0,33–0,67.
+Kinerja pada 1.105 komentar data validasi. IndoBERT sebelum fine-tuning ditampilkan sebagai pembanding.
+Pada tahap ini lapisan klasifikasinya masih acak, sehingga probabilitas kelas promosi hanya berkisar
+0,33–0,66 dan prediksinya mendekati tebakan.
 
-| Tahap | Data | Precision | Recall | F1 |
-|---|---|---|---|---|
-| Sebelum fine-tuning | Validasi | 0,1535 | 0,6502 | 0,2484 |
-| Setelah fine-tuning (epoch 2) | Validasi | 0,9842 | 0,9212 | 0,9517 |
-| Sebelum fine-tuning | Uji normal (berpasangan) | 0,1193 | 0,6118 | 0,1996 |
-| Setelah fine-tuning | Uji normal (berpasangan) | 0,9766 | 0,9824 | 0,9795 |
+| Model | Precision | Recall | F1 |
+|---|---|---|---|
+| TF-IDF–Linear SVM | 0,9686 | 0,9113 | 0,9391 |
+| IndoBERT sebelum fine-tuning | 0,1535 | 0,6502 | 0,2484 |
+| IndoBERT setelah fine-tuning (epoch 2) | 0,9842 | 0,9212 | 0,9517 |
+
+Pada kondisi uji normal (himpunan evaluasi berpasangan), F1 IndoBERT sebelum fine-tuning sebesar
+0,1996, sedangkan setelah fine-tuning sebesar 0,9795.
 
 Rincian lengkap ada di `hasil/05_*.csv` dan `hasil/06_*.csv`.
